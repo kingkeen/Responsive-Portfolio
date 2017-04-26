@@ -75,7 +75,7 @@ header {
 	position: relative;
 	left: 20px;
 	padding: 20px 20px 20px 20px;
-	width: 500px;
+	width: 550px;
 	float: left;
 	text-align: center;
 	background-color: white;
@@ -103,12 +103,14 @@ main {
 	position: relative;
 	text-align: center;
 	float: left;
-	clear: both;
 	background-image: url("https://pixabay.com/photo-1014963/");
 	background-repeat: repeat;
 	background-color: #cccccc;
 	padding: 15px;
 	margin: 0px auto 0px 15px;
+	height: auto;
+	clear: both;
+
 }
 
 .connect {
@@ -121,6 +123,9 @@ main {
 	padding: 35px;
 }
 
+br {
+	line-break: normal;
+}
 
 .mainarea {
 	border-width: 15px;
@@ -152,19 +157,43 @@ body {
 
 footer {
     position: absolute;
-    left: 0;
+    left: 15px;
     bottom: 0;
-    height: 100px;
-    width: 950px;
+    height: auto;
+    width: 960px;
     text-align: center;
     font-size: 12px;
     color: white;
     padding-top: 25px;
     background-color: #666666
+
 }
 
 .footer1 {
 	text-align: center;
 	color: lightgrey;
-	
 }
+
+.pizza {
+	background-image: url(assets/images/cat1);
+	height: 220px;
+	width: 220px;
+	background-color: yellow;
+	float: left;
+	margin: 20px 15px 20px 15px;
+}
+
+#pizza1 {
+	color: white;
+	height: 36px;
+	width: 220px;
+	background-color: #4aaaa5
+	font-size: 16px;
+	text-align: center;
+	float: relative;
+	bottom: 15px;
+	top: 40%;
+
+
+}
+
