@@ -39,9 +39,27 @@ h2 {
 	left: 700px;
 	text-align: auto;
 	font-size: 18px;
-	
-
 }
+
+.navbar a:link {
+    color: #333;
+}
+
+/* visited link */
+.navbar a:visited {
+    color: #333;
+}
+
+/* mouse over link */
+.navbar a:hover {
+    color: #333;
+}
+
+/* selected link */
+.navbar a:active {
+    color: #333;
+}
+
 
 .links {
 	float: relative;
