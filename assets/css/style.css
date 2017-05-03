@@ -301,7 +301,7 @@ footer {
 }
 
 .jalepeno {
-	background-image: url('../images/cat4.jpg');
+	background-image: url('../images/cat5.jpg');
 	height: 220px;
 	width: 220px;
 	background-color: yellow;
@@ -321,3 +321,108 @@ footer {
 	bottom: -170px;
 	
 }
+
+
+@media screen and (max-width: 980px) {
+	/* No changes needed as it was designed for this size */
+}
+
+@media screen and (max-width: 768px) {
+	.contentbox {
+		width: 100%;
+		clear: both;
+	}
+
+	.connect {
+		width: 100%;
+		position: relative;
+		left: 20px;
+		padding: 20px 20px 20px 20px;
+	}
+
+	.navbar {
+	height: 64px;
+	width: 150px;
+	margin: 50px 0px 0px 0px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	padding: 10px;
+	}
+
+	main {
+		width: 100%;
+	}
+
+	footer {
+    width: 100%;
+	}
+
+	.head {
+	width: 100%;
+	clear: both;
+	}
+
+	section {
+		width: 100%;
+	}
+
+	.header1 {
+		width: 50%;
+	}
+
+	head {
+		width: 100%;
+	}
+
+@media screen and (max-width: 640px) { 
+
+	/* Same CSS as 768px, exception that the Navbar comes below the Name-header */
+	.contentbox {
+		width: 100%;
+		clear: both;
+	}
+
+	.connect {
+		width: 100%;
+		position: relative;
+		left: 20px;
+		padding: 20px 20px 20px 20px;
+	}
+
+	.navbar {
+	height: 64px;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	padding: 10px;
+	}
+
+	main {
+		width: 100%;
+	}
+
+	footer {
+    width: 100%;
+	}
+
+	.head {
+	width: 100%;
+	clear: both;
+	}
+
+	section {
+		width: 100%;
+	}
+
+	.header1 {
+		width: 50%;
+	}
+
+	head {
+		width: 100%;
+	}
+}
+
